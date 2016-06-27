@@ -15,6 +15,8 @@
 		6390DC351D20E2EB00BBCE8E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6390DC331D20E2EB00BBCE8E /* LaunchScreen.storyboard */; };
 		6390DC401D20E2EB00BBCE8E /* ZigziglarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6390DC3F1D20E2EB00BBCE8E /* ZigziglarTests.swift */; };
 		6390DC4B1D20E2EB00BBCE8E /* ZigziglarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6390DC4A1D20E2EB00BBCE8E /* ZigziglarUITests.swift */; };
+		63BF97AE1D21313E0005798B /* Reality.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 63BF97AD1D21313E0005798B /* Reality.mp3 */; };
+		63BF97B21D2131B50005798B /* Coin.dae in Resources */ = {isa = PBXBuildFile; fileRef = 63BF97B11D2131B50005798B /* Coin.dae */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		6390DC461D20E2EB00BBCE8E /* ZigziglarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZigziglarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6390DC4A1D20E2EB00BBCE8E /* ZigziglarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZigziglarUITests.swift; sourceTree = "<group>"; };
 		6390DC4C1D20E2EB00BBCE8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63BF97AD1D21313E0005798B /* Reality.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Reality.mp3; sourceTree = "<group>"; };
+		63BF97B11D2131B50005798B /* Coin.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = Coin.dae; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +87,7 @@
 				6390DC3E1D20E2EB00BBCE8E /* ZigziglarTests */,
 				6390DC491D20E2EB00BBCE8E /* ZigziglarUITests */,
 				6390DC261D20E2EB00BBCE8E /* Products */,
+				63BF97AD1D21313E0005798B /* Reality.mp3 */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,6 +107,7 @@
 				6390DC281D20E2EB00BBCE8E /* AppDelegate.swift */,
 				6390DC2A1D20E2EB00BBCE8E /* art.scnassets */,
 				6390DC2C1D20E2EB00BBCE8E /* GameViewController.swift */,
+				63BF97B11D2131B50005798B /* Coin.dae */,
 				6390DC2E1D20E2EB00BBCE8E /* Main.storyboard */,
 				6390DC311D20E2EB00BBCE8E /* Assets.xcassets */,
 				6390DC331D20E2EB00BBCE8E /* LaunchScreen.storyboard */,
@@ -236,8 +242,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				6390DC2B1D20E2EB00BBCE8E /* art.scnassets in Resources */,
+				63BF97B21D2131B50005798B /* Coin.dae in Resources */,
 				6390DC351D20E2EB00BBCE8E /* LaunchScreen.storyboard in Resources */,
 				6390DC321D20E2EB00BBCE8E /* Assets.xcassets in Resources */,
+				63BF97AE1D21313E0005798B /* Reality.mp3 in Resources */,
 				6390DC301D20E2EB00BBCE8E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -493,6 +501,7 @@
 				6390DC511D20E2EB00BBCE8E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6390DC521D20E2EB00BBCE8E /* Build configuration list for PBXNativeTarget "ZigziglarTests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +510,7 @@
 				6390DC541D20E2EB00BBCE8E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6390DC551D20E2EB00BBCE8E /* Build configuration list for PBXNativeTarget "ZigziglarUITests" */ = {
 			isa = XCConfigurationList;
@@ -509,6 +519,7 @@
 				6390DC571D20E2EB00BBCE8E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
